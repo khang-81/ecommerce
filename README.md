@@ -1,6 +1,6 @@
 # 🛒 Ecommerce Web Application
 
-A full-featured and modern E-commerce website built using the **MERN stack** (MongoDB, Express.js, React.js, and Node.js). This project includes user authentication, product management, shopping cart, order processing, and an admin dashboard.
+A full-featured and modern E-commerce website built using MySQL, Express.js, Vite React. This project includes user authentication, product management, shopping cart, order processing.
 
 
 ## 📌 Project Highlights
@@ -25,6 +25,7 @@ A full-featured and modern E-commerce website built using the **MERN stack** (Mo
 - Express.js
 - MySql.
 - JWT & Bcrypt for Authentication.
+- MySQL
 
 ## Installation
 
