@@ -43,7 +43,7 @@ function Footer() {
                 <hr className="my-8 border-gray-300 dark:border-gray-600" />
 
                 <div className="text-center text-gray-500 dark:text-gray-400">
-                    © 2025 <span className="font-medium text-gray-800 dark:text-white">Bella Fashion</span>. All rights reserved.
+                    © 2025 <span className="font-medium text-gray-800 dark:text-white">Shoppies</span>. All rights reserved.
                 </div>
             </div>
         </footer>

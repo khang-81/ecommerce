@@ -9,12 +9,15 @@ const database = require("./database");
 app.get("/api/products", (req, res) => {
     database.query("SELECT * FROM products", (error, results) => {
         if (error) {
-            return res.status(500).json({ error: "An error occurred" });
+            console.error("Database query failed:", error); // 
+            return res.status(500).json({ error: error.message });
         }
 
         res.json(results);
     });
 });
+
+
 
 app.get("/api/products/:id", (req, res) => {
     const productId = req.params.id;

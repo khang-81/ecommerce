@@ -12,7 +12,7 @@ function Header({ navigationItems }) {
             <div className="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-5">
                 {/* Logo */}
                 <NavLink to="/">
-                    <img src="/logo-min.png" className="h-10" alt="Logo" width={145} height={40} />
+                    <img src="/image.png" className="h-10" alt="Logo" width={200} height={100} />
                 </NavLink>
 
                 {/* Hamburger */}
