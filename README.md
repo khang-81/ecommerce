@@ -1,26 +1,30 @@
-# ReactJS Ecommerce Site
+# 🛒 Ecommerce Web Application
 
-This is a full stack e-commerce site built using Vite React, Tailwind CSS, Express REST API alongside a MySQL database.
+A full-featured and modern E-commerce website built using the **MERN stack** (MongoDB, Express.js, React.js, and Node.js). This project includes user authentication, product management, shopping cart, order processing, and an admin dashboard.
 
-## Features
 
--   Fully responsive design
--   Paginated product listing page with product counter, category decription, alphabetical filtering (A-Z and Z-A) and price sorting (ascending and descending)
--   Individual product pages with product description, add to cart button, quantity selector and related products
--   Cart system with local storage
--   Add to cart notification
--   Fully responsive design
--   Lazy loading of images
--   Announcement bar at the top of the page
--   Static footer containing a set of links
+## 📌 Project Highlights
 
-## Screenshots
+- 🔐 Secure user authentication (JWT)
+- 🛍️ Paginated product listing.
+- 🛒 Shopping cart & checkout functionality.
+- 📦 Order management system.
+- 🧑‍💼 Registration, login functionality.
+- 📱 Alphabetical filtering (A-Z and Z-A) and price sorting (ascending and descending).
 
-<!-- Desktop screenshots -->
-<img src="./screenshots/category-page.png" alt="A screenshot displaying the design's header, category title and description and product grid with filtering and sort by features" width="800px">
+## ⚙️ Tech Stack
 
-<!-- Mobile screenshots -->
-<img src="./screenshots/mobile-category-page.png" alt="A screenshot of the mobile responsive design showing that the mobile nav menu is closed" width="400px">
+### Frontend
+
+- Vite React.
+- React Router DOM.
+- Tailwind CSS.
+
+### Backend
+
+- Express.js
+- MySql.
+- JWT & Bcrypt for Authentication.
 
 ## Installation
 
@@ -43,11 +47,11 @@ $ npm install
 # Set up back-end environment file (needs to be inside the api directory)
 $ nano .env
 
-PORT=3002
+PORT=5001
 DATABASE_HOST="localhost"
 DATABASE_USER="root"
 DATABASE_PASSWORD=""
-DATABASE_NAME="ecommerce"
+DATABASE_NAME="ecommerce_site"
 DATABASE_CONNECTION_LIMIT=10
 
 # Run the app
