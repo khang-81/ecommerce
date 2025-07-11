@@ -3,8 +3,18 @@ require("dotenv").config();
 const express = require("express");
 const app = express();
 const PORT = process.env.PORT;
-
+const cors = require("cors");
+// const authRoutes = require("./routes/auth");
 const database = require("./database");
+
+app.use(cors({
+  origin: "http://localhost:5173", // Frontend chạy Vite
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  allowedHeaders: ["Content-Type", "Authorization"],
+  credentials: true
+}));
+app.use(express.json());
+// app.use("/api/auth", authRoutes);
 
 app.get("/api/products", (req, res) => {
     database.query("SELECT * FROM products", (error, results) => {
