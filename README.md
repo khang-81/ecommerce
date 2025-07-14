@@ -31,7 +31,7 @@ A full-featured and modern E-commerce website built using MySQL, Express.js, Vit
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/MatthewBleUK/ecommerce-site.git
+$ git clone https://github.com/khang-81/ecommerce.git
 
 # Go into the repository
 $ cd ecommerce-site
